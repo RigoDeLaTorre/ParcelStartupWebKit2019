@@ -1,0 +1,25 @@
+@import "1-helpers/1-helpers";
+@import "0-plugins/0-plugins";
+@import "2-base/2-base";
+@import "3-layout/3-layout";
+@import "4-modules/4-modules";
+@import "5-templates/5-templates";
+
+.box {
+  width: 400px;
+  height: 100px;
+  margin: 100px auto;
+  padding-top: 50px;
+  background: red;
+  text-align: center;
+  color: #fff;
+  font-size: 2.5em;
+}
+#anchoring_box {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 20px;
+  background: green;
+}
